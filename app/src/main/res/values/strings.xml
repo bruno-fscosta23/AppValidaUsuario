@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppValidaUsuario</string>
+    <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
+    <string name="senha">Senha</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="voltar">Voltar</string>
+    <string name="resposta_usuario">Resposta Usuário</string>
+</resources>

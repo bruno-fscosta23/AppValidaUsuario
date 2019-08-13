@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCadastrar"
+        android:icon="@drawable/ic_group_add"
+        android:title="Cadastrar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/ic_border_color"
+        android:title="Alterar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/ic_delete"
+        android:title="Excluir"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/ic_delete"
+        android:title="Salvar"
+        app:showAsAction="ifRoom" />
 
 </menu>
