@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/fundo_universo"
     tools:context=".DescPersonagem_Activity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <TextView
+        android:id="@+id/lstDPersona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:text="HOMER"
+        android:textColor="#000"
+        android:textSize="30sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/lstIMGPersona"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/lstDPersona"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/homer" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nome"
-                android:textSize="26dp"
-                android:textColor="#fff"
-                android:layout_gravity="center"
-                android:layout_marginTop="29dp"
-                android:id="@+id/lstDPersona"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:src="@drawable/homer"
-                android:layout_margin="29dp"
-                android:id="@+id/lstIMGPersona"/>
-
-        </LinearLayout>
-
-    </LinearLayout>
-</LinearLayout>
+</RelativeLayout>

@@ -20,7 +20,7 @@ public class DescPersonagem_Activity extends AppCompatActivity {
         setContentView(R.layout.desc_personagem_layout);
 
         lstPersona = (TextView) findViewById(R.id.lstDPersona);
-        lstImagem = (ImageView) findViewById(R.id.imgPersona);
+        lstImagem = (ImageView) findViewById(R.id.lstIMGPersona);
 
         Intent intent = getIntent();
 

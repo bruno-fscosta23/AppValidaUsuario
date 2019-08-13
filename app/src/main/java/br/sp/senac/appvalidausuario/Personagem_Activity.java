@@ -25,7 +25,7 @@ public class Personagem_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rec_personagem);
+        setContentView(R.layout.personagem_layout);
 
         listView = findViewById(R.id.lstPersona);
 
@@ -60,7 +60,7 @@ public class Personagem_Activity extends AppCompatActivity {
 
         @Override
         public View getView(int position, View view, ViewGroup parent) {
-            View view1= getLayoutInflater().inflate(R.layout.personagem_layout,null);
+            View view1= getLayoutInflater().inflate(R.layout.rec_personagem,null);
 
             TextView name = (TextView) view1.findViewById(R.id.nPersonagem);
             ImageView image = (ImageView) view1.findViewById(R.id.imgPersona);
