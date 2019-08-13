@@ -9,22 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DescPersonagem_Activity">
+        <activity android:name=".Cadastrar_Activity"></activity>
+        <activity android:name=".DescPersonagem_Activity"></activity>
+        <activity
+            android:name=".Personagem_Activity"
+            android:theme="@style/temaPersona" >
+
+        </activity>
+
+        <activity
+            android:name=".Splash_Activity"
+            android:theme="@style/temaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Personagem_Activity"
-            android:theme="@style/temaPersona"></activity>
-        <activity
-            android:name=".Splash_Activity"
-            android:theme="@style/temaSemBarra">
-        </activity>
         <activity android:name=".RespondeUsuario_Activity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>

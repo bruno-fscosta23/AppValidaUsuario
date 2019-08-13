@@ -18,19 +18,22 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:background="@drawable/title"
-                android:layout_margin="29dp"/>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nome"
                 android:textSize="26dp"
                 android:textColor="#fff"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_marginTop="29dp"
+                android:id="@+id/lstDPersona"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:src="@drawable/homer"
+                android:layout_margin="29dp"
+                android:id="@+id/lstIMGPersona"/>
 
         </LinearLayout>
 
