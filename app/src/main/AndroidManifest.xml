@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Cadastrar_Activity"></activity>
+        <activity
+            android:name=".Pesquisar_Activity"
+            android:theme="@style/temaPesquisar">
+
+        </activity>
         <activity android:name=".DescPersonagem_Activity"></activity>
         <activity
             android:name=".Personagem_Activity"
-            android:theme="@style/temaPersona" >
-
-        </activity>
-
+            android:theme="@style/temaPersona"></activity>
         <activity
             android:name=".Splash_Activity"
             android:theme="@style/temaSemBarra">
@@ -27,9 +29,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".RespondeUsuario_Activity" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
-
 </manifest>
