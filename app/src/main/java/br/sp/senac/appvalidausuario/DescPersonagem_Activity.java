@@ -23,7 +23,6 @@ public class DescPersonagem_Activity extends AppCompatActivity {
         lstImagem = (ImageView) findViewById(R.id.lstIMGPersona);
 
         Intent intent = getIntent();
-
         String nomeRetorno = intent.getStringExtra("name");
         int imagemRetorno = intent.getIntExtra("image",0);
 
@@ -31,8 +30,6 @@ public class DescPersonagem_Activity extends AppCompatActivity {
         lstImagem.setImageResource(imagemRetorno);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
     }
 
     @Override
